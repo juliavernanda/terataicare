@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #ECECEC;
+    text-decoration: none;
+}
+
+.main {
+    /* background-color: antiquewhite; */
+}
+
+.section-body{
+    padding: 80px 0px;
+}
+
+.upcoming-appoinment{
+    background-color: #114B5F;
+    border-radius: 15px;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+.upcoming-appoinment p {
+    color: white;
+    font-size: 15px;
+    margin: 0;
+
+
+}
+
+.upcoming-appoinment h3{
+    color: white;
+
+}
+
+
+.upcoming-appoinment h4{
+    color: white;
+    font-weight: 600;
+}
+
+.doctor-available{
+    border: 2px solid #114B5F;
+    border-radius: 15px;
+}
+
+.doctor-available .box-status{
+   background-color: #114B5F;
+   max-width:400px;
+   border-radius: 20px;
+   height: 120px;
+   margin: 10px 0px;
+}
+
+.doctor-available .box-status h3{
+    font-size: 20px;
+    color: white;
+}
+
+.doctor-available .box-status p{
+    font-size: 16px;
+    color: white;
+}
+
+.menu{
+    width: 650px;
+    height: 90px;
+    border-radius: 30px;
+    background-color: #0B485C;
+    list-style: none;
+    gap: 1vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 4vw;
+}
+.menu a{
+    padding: 0.7vw 1.8vw;
+    border-radius: 15px;
+    color: #ECECEC;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: Raleway;
+}
+.menu .active{
+    background-color: #ECECEC;
+    color: #114B5F;
+}
+.menu a:hover{
+    background-color: #ECECEC;
+    color: #114B5F;
+}
+.main .text-box .title{
+    font-size: 80px;
+    font-weight: 600;
+    word-spacing: 20vw;
+    letter-spacing: 0.8vw;
+    color: #114B5F;
+}
+.login .text-box .title{
+    font-size: 70px;
+    font-weight: 600;
+    word-spacing: 20vw;
+    letter-spacing: 0.8vw;
+    color: #114B5F;
+}
+.text-box .desk{
+    font-size: 35px;
+    font-weight: 600;
+    color: #114B5F;
+}
+
+.btn-success{
+    background-color: #0B485C;
+    border: none;
+    /* width: 352px; */
+    /* height: 114px; */
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 1.5vw 4vw;
+}
+.btn-success:hover{
+    background-color: #ECECEC;
+    color: #114B5F;
+    border: 2px solid #114B5F;
+}
+.CustomerService{
+    position: fixed;
+    right:6vw;
+    bottom: 4vw;
+}
+.CustomerService img{
+    width: 5rem;
+}
+.login-form{
+    padding: 0 7vw;
+}
+.login-form .title{
+    font-size: 35px;
+    font-weight: 600;
+    color: #114B5F;
+}
+.login .form-label{
+    font-size: 18px;
+    font-weight:300;
+    color: #114B5F;
+}
+.login .form-control{
+    background-color: #ECECEC;
+    border: 1px solid #114B5F;
+    padding: 0.6vw;
+    border-radius: 10px;
+}
+.login .boxlogin-btn{
+    justify-content: space-between;
+}
+.login .boxlogin-btn p{
+    font-size: 16px;
+    font-weight:300;
+    color: #114B5F;
+}
+.login .boxlogin-btn p a{
+    font-weight:500;
+    color: #114B5F;
+    text-decoration: none;
+}
+.login .boxlogin-btn button{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight:600;
+    background-color: #114B5F;
+    color: #ECECEC;
+    border-radius: 10px;
+    padding: 0.2vw 2vw;
+    border: none;
+}
+.login .boxlogin-btn button:hover{
+    background-color: #ECECEC;
+    color: #114B5F;
+    border: 1px solid #114B5F;
+}
+/* doctors style */
+.doctors .box-content{
+    gap: 3vw;
+}
+.doctors .box-content .content{
+    background-color: #0B485C;
+    width: 333px;
+    height: 324px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 2.5vw;
+}
+.doctors .box-content .content .btn-content{
+    background-color: #ECECEC;
+    color: #114B5F;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 0.7vw 1.5vw;
+}
+.doctors .box-content .content .btn-content:hover{
+    background-color: #114B5F;
+    color: #ECECEC;
+    border: 1px solid #ECECEC;
+}
+.doctor-img img {
+    position: absolute;
+    top: -50px; /* Sesuaikan dengan kebutuhan Anda */
+    left: 50%; /* Menempatkan gambar di tengah */
+    transform: translateX(-50%);
+  }
+
+  /* bookimg style */
+.booking .box-content.booking-form{
+    background-color: #0B485C;
+    width: 936px;
+    height: 524px;
+    color: #ECECEC;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.booking .box-content.booking-form .title{
+    color: #ECECEC;
+    font-size: 35px;
+    font-weight: 600;
+}
+.booking .box-content.booking-form .btn-booking{
+    background-color: #ECECEC;
+    color: #114B5F;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5vw 2vw;
+    border-radius: 10px;
+}
+.booking .box-content.booking-form .btn-booking:hover{
+    background-color: #114B5F;
+    color: #ECECEC;
+    border: 1px solid #ECECEC ;
+}
+.booking .box-content.booking-form .form-label{
+    font-size: 18px;
+    font-weight:300;
+    color: #ECECEC;;
+}
+.booking .box-content.booking-form .form-control{
+    background-color: #114B5F;
+    border: 1px solid #ECECEC;
+    padding: 0.6vw;
+    border-radius: 10px;
+    color: #ECECEC;
+}
+.booking .box-content.booking-form .form-control::placeholder{
+    color: #ECECEC;
+    font-weight: 300;
+}
+.logout{
+    position: absolute;
+    right: 10vw;
+    top: 5vw;
+}
+.logout a{
+    font-weight: 600;
+    color: #114B5F;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
